@@ -1,0 +1,50 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 10vh;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.nav ul {
+display: flex;
+justify-content: space-between;
+cursor: pointer;
+width: 55vw;
+padding-left: 8rem;
+}
+.nav li {
+/* margin-right: 0.02rem; */
+/* width: 15%; */
+font-size: 0.7rem;
+color: white;
+list-style: none;
+}
+
+.nav li:hover {
+    background-color: lightseagreen;
+    
+}
+
+.nav__black {
+    background-color: #111;
+}
+
+.nav__logo {
+    position: fixed;
+    left: 20px;
+    width: 15vh;
+    object-fit: contain;
+}
+
+.nav__avator {
+    position: fixed;
+    right: 18px;
+    width: 3vh;
+    object-fit: contain;
+}

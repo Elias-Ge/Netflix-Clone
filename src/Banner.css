@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.banner__image {
+    color: white;
+    object-fit:contain;
+    height: 100vh;
+}
+
+.banner__contents {
+    /* margin-left: 80px; */
+    padding-top: 50vh;
+    position: relative;
+    /* height: 590px; */
+}
+
+.banner__title {
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 0.3rem;
+}
+
+.banner__text--description {
+    margin-left: 1rem;
+    width: 100vw;
+    line-height: 1.5;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    max-width: 30vw;
+    height: 10vh;
+}
+
+.banner__button {
+    margin-left: 1rem;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    border-radius: 0.2vw;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    font-size: 1.2rem;
+}
+
+.banner__button:hover {
+color: #000;
+background-color: #e6e6e6;
+transition: all 0.2s;
+}
+
+.banner__fadeBottom {
+    /* margin-left: 0; */
+    height: 8rem;
+    background-image: linear-gradient(180deg, transparent, rgb(37, 37, 37, 0.61), #111);
+}
